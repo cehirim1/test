@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MyMathTest {
 
     @Test
-    void testExceptions(){
+   public void testExceptions(){
         //arrange
         MyMath math = new MyMath();
         //variable assignment is act
@@ -16,7 +16,7 @@ class MyMathTest {
     }
 
     @Test
-    void testDivide(){
+   public void testDivide(){
 
         MyMath math = new MyMath();
         assertDoesNotThrow(()->math.divide(219,21));
