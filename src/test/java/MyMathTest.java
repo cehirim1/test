@@ -20,6 +20,5 @@ class MyMathTest {
 
         MyMath math = new MyMath();
         assertDoesNotThrow(()->math.divide(219,21));
-
     }
 }
